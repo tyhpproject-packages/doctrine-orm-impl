@@ -1,0 +1,87 @@
+{
+    "name": "tyhpdef/doctrine-orm-impl",
+    "description": "Implementation package for tyhpdef/doctrine-orm. Require tyhpdef/doctrine-orm, not this package.",
+    "keywords": [
+        "dev",
+        "static analysis",
+        "internal"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "version": "3.7.1.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "tyhp": {
+            "interopContractVersion": 1,
+            "php-version": ">=8.2",
+            "require": {
+                "tyhpdef/php": "@dev",
+                "tyhpdef/doctrine-collections": "@dev",
+                "tyhpdef/doctrine-dbal": "@dev",
+                "tyhpdef/doctrine-deprecations": "@dev",
+                "tyhpdef/doctrine-event-manager": "@dev",
+                "tyhpdef/doctrine-inflector": "@dev",
+                "tyhpdef/doctrine-lexer": "@dev",
+                "tyhpdef/doctrine-persistence": "@dev",
+                "tyhpdef/psr-cache": "@dev",
+                "tyhpdef/psr-container": "@dev",
+                "tyhpdef/psr-event-dispatcher": "@dev",
+                "tyhpdef/psr-log": "@dev",
+                "tyhpdef/php-ext-bcmath": "@dev",
+                "tyhpdef/php-ext-ctype": "@dev",
+                "tyhpdef/php-ext-mysqli": "@dev",
+                "tyhpdef/php-ext-pdo": "@dev",
+                "tyhpdef/php-ext-pgsql": "@dev",
+                "tyhpdef/php-ext-sqlite3": "@dev",
+                "tyhpdef/symfony-console": "@dev",
+                "tyhpdef/symfony-event-dispatcher-contracts": "@dev",
+                "tyhpdef/symfony-service-contracts": "@dev",
+                "tyhpdef/symfony-string": "@dev",
+                "tyhpdef/symfony-translation-contracts": "@dev",
+                "tyhpdef/symfony-var-exporter": "@dev"
+            },
+            "package": {
+                "include": [
+                    "./_tyhpdef/*.tyhpdef",
+                    "./_tyhpdef/extensions/*.tyhpdef"
+                ],
+                "overlay": [
+                    "./_tyhpdef/overlays/stubs/*.tyhpdef",
+                    "./_tyhpdef/overlays/*.tyhpdef"
+                ]
+            },
+            "public": "tyhpdef/doctrine-orm"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "doctrine/orm": "3.7.1"
+    },
+    "require-dev": {
+        "tyhpdef/php": "@dev",
+        "tyhpdef/doctrine-collections": "@dev",
+        "tyhpdef/doctrine-dbal": "@dev",
+        "tyhpdef/doctrine-deprecations": "@dev",
+        "tyhpdef/doctrine-event-manager": "@dev",
+        "tyhpdef/doctrine-inflector": "@dev",
+        "tyhpdef/doctrine-lexer": "@dev",
+        "tyhpdef/doctrine-persistence": "@dev",
+        "tyhpdef/psr-cache": "@dev",
+        "tyhpdef/psr-container": "@dev",
+        "tyhpdef/psr-event-dispatcher": "@dev",
+        "tyhpdef/psr-log": "@dev",
+        "tyhpdef/php-ext-bcmath": "@dev",
+        "tyhpdef/php-ext-ctype": "@dev",
+        "tyhpdef/php-ext-mysqli": "@dev",
+        "tyhpdef/php-ext-pdo": "@dev",
+        "tyhpdef/php-ext-pgsql": "@dev",
+        "tyhpdef/php-ext-sqlite3": "@dev",
+        "tyhpdef/symfony-console": "@dev",
+        "tyhpdef/symfony-event-dispatcher-contracts": "@dev",
+        "tyhpdef/symfony-service-contracts": "@dev",
+        "tyhpdef/symfony-string": "@dev",
+        "tyhpdef/symfony-translation-contracts": "@dev",
+        "tyhpdef/symfony-var-exporter": "@dev"
+    }
+}
